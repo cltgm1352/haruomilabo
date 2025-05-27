@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARUOMILABO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- ナビゲーションバー -->
+  <nav class="bg-blue-600 text-white p-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">HARUOMILABO</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:underline">ホーム</a></li>
+      
+    </div>
+  </nav>
+
+  <!-- ヒーローセクション -->
+  <section id="home" class="bg-blue-100 py-20 text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4">HARUOMILABOへようこそ</h2>
+      <p class="text-lg mb-6 max-w-2xl mx-auto">色々変なサイトを作っています！</p>
+      <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">今すぐお問い合わせ</a>
+    </div>
+  </section>
+
+  <!-- サービスセクション -->
+  <section id="services" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">サービス</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Web開発</h3>
+          <p>さまざまなサイトを作っています！</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">デザイン</h3>
+          <p>公式ホームページでいろんな記事を書いています！</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">コンサルティング</h3>
+          <p>？？？？</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于セクション -->
+  <section id="about" class="py-16 bg-blue-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10"></h2>
+      <p class="text-lg max-w-3xl mx-auto"></p>
+    </div>
+  </section>
+
+  <!-- お問い合わせセクション -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">お問い合わせ</h2>
+      <form class="max-w-lg mx-auto space-y-4">
+        <input type="text" placeholder="お名前" class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+        <input type="email" placeholder="メールアドレス" class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+        <textarea placeholder="メッセージ" rows="5" class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 w-full">送信</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="bg-blue-600 text-white p-4 text-center">
+    <div class="container mx-auto">
+      <p>©2025 HARUOMILABO</p>
+    </div>
+  </footer>
+</body>
+</html>
